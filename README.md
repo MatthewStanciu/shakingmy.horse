@@ -1,2 +1,2 @@
 # shakingmy.horse
-SMH
+smh
