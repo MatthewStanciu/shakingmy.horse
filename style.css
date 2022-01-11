@@ -33,12 +33,11 @@
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
 .shake:hover,
 .shake:active {
-  animation-name: shake;
-  animation-duration: 0.5s;
+  animation: shake 0.5s infinite;
   transform-origin: 50% 50%;
-  animation-iteration-count: infinite;
 }
 
 h1 {
@@ -59,6 +58,8 @@ body,
 html {
   margin: 0;
   padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
 }
 * {
   box-sizing: border-box;
